@@ -5,8 +5,10 @@
 .top-section {
     background: url("./images/yosemite.jpg");
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .container {
