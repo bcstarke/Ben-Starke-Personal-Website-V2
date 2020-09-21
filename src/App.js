@@ -33,7 +33,6 @@ class App extends Component {
                     {/*<div className="welcomePage">*/}
                         <WelcomePage
                             title="Welcome Page"
-                            dark={false}
                             id="WelcomePage"
                         />
                     {/*</div>*/}
@@ -42,7 +41,6 @@ class App extends Component {
                 {/*<div className="aboutPage">*/}
                 <AboutPage
                     title="About Page"
-                    dark={true}
                     id="AboutPage"
                 />
                 {/*</div>*/}

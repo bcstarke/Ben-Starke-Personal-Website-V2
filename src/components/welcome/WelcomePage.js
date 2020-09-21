@@ -26,7 +26,7 @@ export default class WelcomePage extends Component {
                                 This is my personal website coded from scratch using ReactJS, Bootstrap, and
                                 hosted
                                 on
-                                an AWS EC2 instance.
+                                Firebase.
                             </p>
                         </div>
                         <div className="social-links-nav">

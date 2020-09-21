@@ -3,6 +3,7 @@ import React, {Component} from "react";
 import {Link, animateScroll as scroll} from "react-scroll";
 import Nav from 'react-bootstrap/Nav'
 import "./NavBar.css"
+import AboutPage from "../about/AboutPage";
 
 export default class NavBar extends Component {
     scrollToTop = () => {
@@ -76,6 +77,7 @@ export default class NavBar extends Component {
                 </nav>
             </div>
             // </div>
+
         );
     }
 }

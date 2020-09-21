@@ -1,15 +1,24 @@
 .App {
     padding: 0;
+    width: 100%;
+    height: 100vh;
 }
 
 .top-section {
     background: url("./images/yosemite.jpg");
     background-size: cover;
-    height: 100%;
+    height: 120vh;
     width: 100%;
-    padding-right: 0;
-    margin-right: 0;
+    padding-right: -3rem;
+    margin-right: -3rem;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    .top-section {
+        height: 140vh;
+    }
+}
+
 
 .container {
     margin-left: auto;
