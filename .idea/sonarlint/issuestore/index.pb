@@ -34,3 +34,7 @@ Q
 !src/components/about/AboutPage.js,0\b\0b6c579a46694ab7ac1c032267af8930fc9076d6
 O
 src/components/navbar/NavBar.js,8\4\84249674e6b2ac216f23358c9272ead3526e1c55
+X
+(src/components/resumePage/ResumePage.css,e\b\ebf99b0f20879aa173c33fe201f075927cc3a734
+=
+firebase.json,5\9\59951656e3803454427cfe9d761fed1df10b7528

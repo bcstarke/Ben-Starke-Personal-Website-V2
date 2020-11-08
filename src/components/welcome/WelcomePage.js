@@ -10,8 +10,8 @@ export default class WelcomePage extends Component {
                 <div className="container-fluid" id="welcomeBox">
                     <div className="header-box container">
                         <div className="row header">
-                            <h1 className="headline">Hi, I'm Ben Starke.</h1>
-                            <p className="header-description">I'm currently a Software Engineer
+                            <h1>Hi, I'm Ben Starke.</h1>
+                            <p>I'm currently a Software Engineering
                                 co-op at
                                 Oracle within the Health Sciences Global Business Unit (HSGBU).
                              Currently, I'm working on redesigning and building the Data Management Workbench Tool from scratch.

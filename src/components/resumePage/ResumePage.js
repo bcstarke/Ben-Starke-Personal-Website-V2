@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-// import './ResumePage.css'
-// import logo from './images/oracle-logo.png'
+import './ResumePage.css'
+// import oraclelogo from './images/oracle-logo.png'
 // import envisionLogo from './images/envision-logo.jpg'
 
 export default function ResumePage({dark, id}) {
@@ -28,31 +28,12 @@ export default function ResumePage({dark, id}) {
                             <div className="oracle-image col-3">
                                 <img
                                     className="oracle-logo"
-                                    //src={logo}
+                                    // src={oraclelogo}
                                     alt="oracle-logo"
                                 />
                             </div>
                         </div>
-                        {/*<div className="long oracle-title">*/}
-                        {/*    <div className="row">*/}
-                        {/*        <i>Oracle | Burlington, MA | May 2020 -*/}
-                        {/*            December 2020</i>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
-                        {/*<div className="row col-13 oracle-job-description">*/}
-                        {/*    <ul>*/}
-                        {/*        <li>Developed Java apps</li>*/}
-                        {/*        <li>Developed Javascript apps</li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
-
                     </section>
-
-                    {/*</div>*/}
-
-                    {/*</div>*/}
-
-
                     <section>
                         <div className="row">
                             <div className="envision-image col-3">
@@ -82,39 +63,30 @@ export default function ResumePage({dark, id}) {
                 </div>
             </div>
 
+            {/*education section start*/}
+            <div className="education-container">
+                <div className="container-fluid" id="educationBox">
+                    <div className="education-header">
+                        <div className="row header">
+                            <h2>Education</h2>
+                            <h4>Northeastern University</h4>
+                            <i>Candidate for Masters of Science in Computer Science |
+                                Expected Graduation April 2021</i>
+                            <li>GPA: 3.6</li>
 
-            <div className="education container">
-                <div className="row">
-                    <div className="row education-header">
-                        <div className="col-12">
-                            <div className="row col-2">
-                                <h2>Education</h2>
-                            </div>
-                            <div className="row col-10">
-                                <h4>Northeastern University</h4>
-                                <i>Candidate for Masters of Science in Computer Science |
-                                    Concentration
-                                    in Software Engineering and Data Science | Expected
-                                    Graduation
-                                    April
-                                    2021</i>
-                                <p>school stuff here</p>
-                            </div>
-                            <div className="row col-8">
-                                <h4>Seton Hall University</h4>
-                                <i>Bachelors of Science in Biochemistry</i>
-                            </div>
-                            <div className="row">
-                                <ul>
-                                    <li></li>
-                                </ul>
-                            </div>
+                            <br/>
+                            <br/>
+                            <br/>
+
+                            <h4>Seton Hall University</h4>
+                            <i>Bachelors of Science in Biochemistry</i>
+                             <li>GPA: 3.4</li>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        // </div>
+// </div>
     )
 }
 

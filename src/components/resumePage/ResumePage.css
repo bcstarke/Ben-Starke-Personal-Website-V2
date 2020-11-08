@@ -1,0 +1,17 @@
+.education-container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#educationBox {
+    position: relative;
+    border-radius: 50px;
+    margin-top: 10%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
