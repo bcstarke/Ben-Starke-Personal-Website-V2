@@ -17,12 +17,9 @@ export default class ResumePage extends Component {
 
                         <section>
                             <div className="row col-12">
-
                                 {/*<div className="col-2"></div>*/}
                                 <div className="long oracle-name col-7">
-                                    {/*<div className="row">*/}
                                     <h4>Software Engineering Co-op</h4>
-                                    {/*</div>*/}
                                 </div>
                                 <div className="oracle-image col-3">
                                     {/*<img*/}
@@ -63,27 +60,46 @@ export default class ResumePage extends Component {
                 </div>
 
                 <div className="education-container">
-                    <div className="container-fluid" id="educationBox">
+                    <div className="container" id="educationBox">
                         <div className="education-header">
                             <div className="row header">
                                 <h2>Education</h2>
+                            </div>
+                            <div className="row header">
                                 <h4>Northeastern University</h4>
-                                <i>Candidate for Masters of Science in Computer Science |
-                                    Expected Graduation April 2021</i>
-                                <li>GPA: 3.6</li>
-
+                                <div className="container">
+                                    <div className="degree-field">
+                                        <i>Candidate for Masters of Science in Computer Science |
+                                            Expected Graduation April 2021
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row container-fluid">
+                                <ul>
+                                    <li>GPA: 3.6</li>
+                                </ul>
+                            </div>
+                            <br/>
+                            <div className="row header">
                                 <br/>
-                                <br/>
-                                <br/>
-
                                 <h4>Seton Hall University</h4>
-                                <i>Bachelors of Science in Biochemistry</i>
-                                <li>GPA: 3.4</li>
+                                <div className="container">
+                                    <div className="degree-field">
+                                        <i>Bachelors of Science in Biochemistry</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row container-fluid">
+                                <ul>
+                                    <li>GPA: 3.4</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            // </div>
         )
     }
 }
