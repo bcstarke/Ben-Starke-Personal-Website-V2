@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link, animateScroll as scroll} from "react-scroll";
-// import "./Footer.css"
+import "./Footer.css"
 
 export default class Footer extends Component {
     constructor(props) {
@@ -14,9 +14,6 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                {/*<div className="container">*/}
-                {/*<div className="col-5"></div>*/}
-                {/*<div className="col-4">*/}
                 <div class="scroll-to-top">
                     <button class="scroll-button">
                         <Link
@@ -36,11 +33,6 @@ export default class Footer extends Component {
                     <p>Author: Benjamin Starke</p>
                     <p>Background Photo credit: @mischievous_penguins</p>
                 </div>
-                {/*<div className="col-5"></div>*/}
-                {/*<hr/>*/}
-                {/*<p>Author: Benjamin Starke</p>*/}
-                {/*<p>Background Photo credit: @mischievous_penguins</p>*/}
-                {/*</div>*/}
             </footer>
         );
     }

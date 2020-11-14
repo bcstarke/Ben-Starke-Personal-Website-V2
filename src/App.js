@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import TopBar from "../src/components/Topbar";
-import FooterMenu from "./components/footer/FooterMenu";
+import FooterMenu from "./components/footer/Footer";
 import Content from "../src/components/Content";
 import AboutPage from "./components/about/AboutPage";
 import ResumePage from "./components/resumePage/ResumePage";
