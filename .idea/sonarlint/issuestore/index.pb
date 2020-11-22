@@ -10,8 +10,6 @@ U
 %src/components/contact/ContactPage.js,0\8\088aa8290e9f4675a906ff2a156e47af0d239c07
 W
 'src/components/resumePage/ResumePage.js,e\b\eb45631ad637b31ac76f254ef6d8daf54da9ef56
-S
-#src/components/footer/FooterMenu.js,8\9\891eacf89777a9caf1bd530a3b5df9cba091b8a4
 <
 src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
 9
@@ -38,3 +36,7 @@ X
 (src/components/resumePage/ResumePage.css,e\b\ebf99b0f20879aa173c33fe201f075927cc3a734
 =
 firebase.json,5\9\59951656e3803454427cfe9d761fed1df10b7528
+O
+src/components/footer/Footer.js,6\0\604287a36e6b4f3e8721deeb92ac3b1113830d7e
+P
+ src/components/footer/Footer.css,c\d\cd77c24cb1698f790b6436c2605e8771104fc3d2

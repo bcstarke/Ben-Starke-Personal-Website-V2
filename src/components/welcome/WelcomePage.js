@@ -14,7 +14,8 @@ export default class WelcomePage extends Component {
                             <p>I'm currently a Software Engineering
                                 co-op at
                                 Oracle within the Health Sciences Global Business Unit (HSGBU).
-                             Currently, I'm working on redesigning and building the Data Management Workbench Tool from scratch.
+                                I'm working on redesigning and building the Data Management Workbench
+                                Tool from scratch.
                                 This tool is designed specifically for Oracle's pharmaceutical Data Management clients. I'm
                                 also
                                 a

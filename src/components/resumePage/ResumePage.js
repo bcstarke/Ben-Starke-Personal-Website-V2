@@ -9,7 +9,7 @@ export default class ResumePage extends Component {
         return (
             <div className="resume-page">
                 <section>
-                    <div className="work-experience-container">
+                    <div className="work-experience container">
                         <div className="container-fluid">
                             <div className="section-header">
                                 <div className="row header">
@@ -22,7 +22,7 @@ export default class ResumePage extends Component {
                                             <i>Oracle Health Sciences
                                             </i>
                                             <br/>
-                                            <i>05/2020 - Present
+                                            <i>Burlington, MA | 05/2020 - Present
                                             </i>
                                         </div>
                                     </div>
@@ -61,8 +61,7 @@ export default class ResumePage extends Component {
                                             <i>Envision Physician Services
                                             </i>
                                             <br/>
-                                            <i>12/2015 - 12/2018
-                                            </i>
+                                            <i>Morristown, NJ | 12/2015 - 12/2018</i>
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +88,7 @@ export default class ResumePage extends Component {
                     </div>
                 </section>
                 <section>
-                    <div className="education-container">
+                    <div className="education container">
                         <div className="container-fluid" id="educationBox">
                             <div className="section-header">
                                 <div className="row header">
@@ -102,6 +101,9 @@ export default class ResumePage extends Component {
                                             <i>Candidate for Masters of Science in Computer Science
                                                 |
                                                 Expected Graduation April 2021
+                                            </i>
+                                            <br/>
+                                            <i>Boston, MA | 01/2019 - Present
                                             </i>
                                         </div>
                                     </div>
@@ -118,6 +120,9 @@ export default class ResumePage extends Component {
                                     <div className="container-fluid">
                                         <div className="degree-field">
                                             <i>Bachelors of Science in Biochemistry</i>
+                                            <br/>
+                                            <i>South Orange, NJ | 08/2011 - 05/2015
+                                            </i>
                                         </div>
                                     </div>
                                 </div>
