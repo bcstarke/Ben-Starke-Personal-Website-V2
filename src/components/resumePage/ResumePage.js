@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import './ResumePage.css'
-// import oraclelogo from './images/oracle-logo.png'
-// import envisionLogo from './images/envision-logo.jpg'
+import oraclelogo from '../../images/oracle-logo.png'
+import envisionLogo from '../../images/envision-logo.png'
 
 //export default function ResumePage({dark, id}) {
 export default class ResumePage extends Component {
@@ -17,6 +17,10 @@ export default class ResumePage extends Component {
                                 </div>
                                 <div className="row header">
                                     <h5>Software Engineering Co-op</h5>
+                                    <img className="company-logo" src={oraclelogo}
+                                         alt="oracle logo"
+                                         height="80px"
+                                         width="250px"/>
                                     <div className="container-fluid">
                                         <div className="degree-field">
                                             <i>Oracle Health Sciences
@@ -56,6 +60,10 @@ export default class ResumePage extends Component {
                                 </div>
                                 <div className="row header">
                                     <h5>Clinical Information Manager</h5>
+                                    <img className="company-logo" src={envisionLogo}
+                                         alt="envision logo"
+                                         height="60px"
+                                         width="250px"/>
                                     <div className="container-fluid">
                                         <div className="degree-field">
                                             <i>Envision Physician Services
