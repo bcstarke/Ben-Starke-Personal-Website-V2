@@ -2,6 +2,11 @@ import React, {Component} from "react";
 import './ResumePage.css'
 import oraclelogo from '../../images/oracle-logo.png'
 import envisionLogo from '../../images/envision-logo.png'
+import northeasternLogo from '../../images/northeastern-logo.png'
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //export default function ResumePage({dark, id}) {
 export default class ResumePage extends Component {
@@ -17,26 +22,31 @@ export default class ResumePage extends Component {
                                 </div>
                                 <div className="row header">
                                     <h5>Software Engineering Co-op</h5>
-                                    <img className="company-logo" src={oraclelogo}
-                                         alt="oracle logo"
-                                         height="80px"
-                                         width="250px"/>
+                                    {/*<div class="company-logo-section">*/}
+                                    {/*<img class="company-logo .d-none .d-lg-block"*/}
+                                    {/*     src={oraclelogo}*/}
+                                    {/*     alt="oracle logo"*/}
+                                    {/*     height="80px"*/}
+                                    {/*     width="250px"/>*/}
+                                    {/*</div>*/}
+                                </div>
+                                <div className="row header-title">
                                     <div className="container-fluid">
                                         <div className="degree-field">
                                             <i>Oracle Health Sciences
                                             </i>
                                             <br/>
-                                            <i>Burlington, MA | 05/2020 - Present
+                                            <i>Burlington, MA | 05/2020 - 12/2020
                                             </i>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row container-fluid">
                                     <ul>
-                                        <li>Develop a completely new dashboard for the flagship
+                                        <li>Developed a completely new dashboard for the flagship
                                             Oracle Data Management Workbench product from scratch
                                             using HTML, CSS, and Oracle JavaScript Extension
-                                            Toolkit (OJET)
+                                            Toolkit (OJET).
                                         </li>
                                         <li>
                                             Dashboard serves as a central repository for all
@@ -45,25 +55,32 @@ export default class ResumePage extends Component {
                                             data management clients
                                         </li>
                                         <li>
-                                            Incorporate data visualizations and analytics to create
+                                            Incorporated data visualizations and analytics to create
                                             a more refined, insightful, and dynamic UX/UI
                                         </li>
                                         <li>
-                                            Collaborate alongside project managers, designers, and
+                                            Collaborated alongside project managers, designers, and
                                             developers within a distributed Agile development team
+                                            to complete project
                                         </li>
                                         <li>
-                                            Integrate front end with back end NodeJS server using
-                                            REST API calls
+                                            Integrated the front end with the back-end NodeJS server
+                                            using REST API calls
+                                        </li>
+                                        <li>
+                                            Achieved 50-70% reduction in the number of clicks and
+                                            time spent by the end user from the previous approach
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="row header">
                                     <h5>Clinical Information Manager</h5>
-                                    <img className="company-logo" src={envisionLogo}
-                                         alt="envision logo"
-                                         height="60px"
-                                         width="250px"/>
+                                </div>
+                                {/*<img className="company-logo" src={envisionLogo}*/}
+                                {/*     alt="envision logo"*/}
+                                {/*     height="60px"*/}
+                                {/*     width="250px"/>*/}
+                                <div className="row header-title">
                                     <div className="container-fluid">
                                         <div className="degree-field">
                                             <i>Envision Physician Services
@@ -96,17 +113,30 @@ export default class ResumePage extends Component {
                     </div>
                 </section>
                 <section>
-                    <div className="education container">
+                    <div className="education-container container">
                         <div className="container-fluid" id="educationBox">
                             <div className="section-header">
                                 <div className="row header">
+                                    {/*<div className="col-12">*/}
                                     <h2>Education</h2>
+                                    {/*</div>*/}
                                 </div>
                                 <div className="row header">
+                                    {/*<div className="col-10">*/}
                                     <h5>Northeastern University</h5>
+                                    {/*</div>*/}
+                                    {/*<div className="col-2">*/}
+                                    {/*    <img className="university-logo"*/}
+                                    {/*         src={northeasternLogo}*/}
+                                    {/*         alt="northeastern logo"*/}
+                                    {/*         height="150px"*/}
+                                    {/*         width="150px"/>*/}
+                                </div>
+                                <div className="row header-title">
                                     <div className="container-fluid">
                                         <div className="degree-field">
-                                            <i>Candidate for Masters of Science in Computer Science
+                                            <i>Candidate for Masters of Science in Computer
+                                                Science
                                                 |
                                                 Expected Graduation April 2021
                                             </i>
@@ -118,13 +148,14 @@ export default class ResumePage extends Component {
                                 </div>
                                 <div className="row container-fluid">
                                     <ul>
-                                        <li>GPA: 3.6</li>
+                                        <li>GPA: 3.55</li>
                                     </ul>
                                 </div>
                                 <br/>
                                 <div className="row header">
-                                    <br/>
                                     <h5>Seton Hall University</h5>
+                                </div>
+                                <div className="row header-title">
                                     <div className="container-fluid">
                                         <div className="degree-field">
                                             <i>Bachelors of Science in Biochemistry</i>
@@ -142,10 +173,11 @@ export default class ResumePage extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
-                {/*</div>*/}
+                    </section>
+                        {/*</div>*/
+                        }
             </div>
-        )
+    )
     }
-}
+    }
 
