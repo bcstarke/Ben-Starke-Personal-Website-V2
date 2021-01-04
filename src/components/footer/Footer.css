@@ -7,4 +7,12 @@
     position: center;
     margin: auto;
     text-align: center;
+    margin-left: 50%;
+}
+.credits {
+    align-items: center;
+    position: center;
+    /*margin: auto;*/
+    text-align: center;
+    margin-left: 5%;
 }

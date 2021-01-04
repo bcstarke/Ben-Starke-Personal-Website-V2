@@ -15,7 +15,7 @@ export default class Footer extends Component {
         return (
             <footer>
                 <div class="scroll-to-top">
-                    <button class="scroll-button">
+                    <button class="scroll-button btn btn-secondary">
                         <Link
                             activeClass="active"
                             onClick={this.scrollToTop}
@@ -30,8 +30,11 @@ export default class Footer extends Component {
                     </button>
                     {/*</div>*/}
                     <hr/>
-                    <p>Author: Benjamin Starke</p>
-                    <p>Background Photo credit: @mischievous_penguins</p>
+                    <div class="credits">
+                        <p>Author: Benjamin Starke</p>
+                        <p>Background Photo credit: @mischievous_penguins</p>
+                    </div>
+                    <br/>
                 </div>
             </footer>
         );

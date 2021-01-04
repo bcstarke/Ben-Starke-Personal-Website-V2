@@ -13,7 +13,7 @@ export default class NavBar extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <nav class="nav navbar-expand-lg justify-content-center sticky-top">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg justify-content-center sticky-top">
                     <Nav.Item class="nav-item">
                         <Nav.Link class="nav-item">
                             <Link
@@ -59,7 +59,6 @@ export default class NavBar extends Component {
                             </Link>
                         </Nav.Link>
                     </Nav.Item>
-
                     <Nav.Item>
                         <Nav.Link>
                             <Link
