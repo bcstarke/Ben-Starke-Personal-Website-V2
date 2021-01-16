@@ -1,7 +1,12 @@
-.about-page {
+#about {
     background-color: #339;
     padding: 2rem;
 }
+
+/*.about-page {*/
+/*    background-color: #339;*/
+/*    padding: 2rem;*/
+/*}*/
 @media (min-width: 300px) {
     .section-content {
         position: relative;

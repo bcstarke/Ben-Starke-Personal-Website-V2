@@ -1,67 +1,73 @@
-@media (min-width: 300px) {
-    .resume-page {
-        position: relative;
-        align-items: center;
-    }
+#resume {
+    background-color: #fff;
+    margin-top: 6rem;
 }
 
-@media (min-width: 768px) {
-    .resume-page {
-        padding: 1rem;
-        margin: 1rem;
-        position: relative;
-        align-items: center;
-    }
-}
+/*@media (min-width: 300px) {*/
+/*    .resume-page {*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1024px) {
-    .resume-page {
-        padding: 2rem;
-        margin: 0rem;
-        position: relative;
-        align-items: center;
-    }
-}
+/*@media (min-width: 768px) {*/
+/*    .resume-page {*/
+/*        padding: 1rem;*/
+/*        margin: 1rem;*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1150px) {
-    .resume-page {
-        padding: 2rem;
-        margin: 4rem;
-        position: relative;
-        align-items: center;
-    }
-}
+/*@media (min-width: 1024px) {*/
+/*    .resume-page {*/
+/*        padding: 2rem;*/
+/*        margin: 0rem;*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1300px) {
-    .resume-page {
-        padding: 2rem;
-        margin: 3rem;
-        position: relative;
-        align-items: center;
-    }
-}
+/*@media (min-width: 1150px) {*/
+/*    .resume-page {*/
+/*        padding: 2rem;*/
+/*        margin: 4rem;*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1366px) {
-    .resume-page {
-        padding: 3rem;
-        margin: 4.5rem;
-        position: relative;
-        align-items: center;
-    }
-}
+/*@media (min-width: 1300px) {*/
+/*    .resume-page {*/
+/*        padding: 2rem;*/
+/*        margin: 3rem;*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1440px) {
-    .resume-page {
-        padding: 3rem;
-        margin: 4rem;
-        position: relative;
-        align-items: center;
-    }
-}
+/*@media (min-width: 1366px) {*/
+/*    .resume-page {*/
+/*        padding: 3rem;*/
+/*        margin: 4.5rem;*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1440px) {*/
+/*    .resume-page {*/
+/*        padding: 3rem;*/
+/*        margin: 4rem;*/
+/*        position: relative;*/
+/*        align-items: center;*/
+/*    }*/
+/*}*/
 
 .work-experience {
     width: 100%;
     margin-bottom: -2rem;
+    margin-top: -4rem;
 }
 
 @media screen and (min-width: 768px) {

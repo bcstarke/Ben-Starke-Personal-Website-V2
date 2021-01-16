@@ -14,8 +14,8 @@ export default class Footer extends Component {
     render() {
         return (
             <footer>
-                <div class="scroll-to-top">
-                    <button class="scroll-button btn btn-secondary">
+                <div className="scroll-to-top">
+                    <button className="scroll-button btn btn-secondary">
                         <Link
                             activeClass="active"
                             onClick={this.scrollToTop}
@@ -23,6 +23,7 @@ export default class Footer extends Component {
                             smooth={true}
                             offset={-70}
                             duration={500}
+                            to="WelcomePage"
                         >
                             <i className="fa fa-arrow-up fa-3x" aria-hidden="true"></i>
                             {/*<p>Back to top</p>*/}
@@ -30,7 +31,7 @@ export default class Footer extends Component {
                     </button>
                     {/*</div>*/}
                     <hr/>
-                    <div class="credits">
+                    <div className="credits">
                         <p>Author: Benjamin Starke</p>
                         <p>Background Photo credit: @mischievous_penguins</p>
                     </div>

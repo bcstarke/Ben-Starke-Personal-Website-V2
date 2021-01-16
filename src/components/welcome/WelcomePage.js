@@ -6,7 +6,7 @@ import {Nav} from "react-bootstrap"
 export default class WelcomePage extends Component {
     render() {
         return (
-            <div className="welcome-container">
+            <div className="welcome-container" id="home">
                 <div className="container-fluid" id="welcomeBox">
                     <div className="header-box container">
                         <div className="row header">
