@@ -11,23 +11,17 @@ export default class WelcomePage extends Component {
                     <div className="header-box container">
                         <div className="row header">
                             <h1>Hi, I'm Ben Starke.</h1>
-                            <p>I'm currently a Software Engineering
-                                co-op at
-                                Oracle within the Health Sciences Global Business Unit (HSGBU).
-                                I'm working on redesigning and building the Data Management Workbench
-                                Tool from scratch.
-                                This tool is designed specifically for Oracle's pharmaceutical Data Management clients. I'm
-                                also
-                                a
-                                graduate student pursuing my M.S. in Computer Science with a
+                            <p>I'm currently a graduate student pursuing my M.S. in Computer Science with a
                                 concentration
                                 in Software
-                                Engineering and Data Science at Northeastern University in Boston,
-                                MA.
+                                Engineering at Northeastern University in Boston,
+                                MA. Previously I was a Software Engineering
+                                co-op at
+                                Oracle within the Health Sciences Global Business Unit (HSGBU).
                                 This is my personal website coded from scratch using ReactJS, Bootstrap, and
                                 hosted
                                 on
-                                Firebase.
+                                Firebase. My goal is to become a full stack engineer.
                             </p>
                         </div>
                         <div className="social-links-nav">

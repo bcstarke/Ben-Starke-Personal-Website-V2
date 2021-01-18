@@ -153,7 +153,7 @@ export default class ResumePage extends Component {
                                                 <i>Candidate for Masters of Science in Computer
                                                     Science
                                                     |
-                                                    Expected Graduation April 2021
+                                                    Expected Graduation May 2021
                                                 </i>
                                                 <br/>
                                                 <i>Boston, MA | 01/2019 - Present
