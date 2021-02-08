@@ -8,13 +8,7 @@ export default class NavBar extends Component {
         scroll.scrollToTop();
     };
 
-
-
     render() {
-        //     <nav class="navbar sticky-top navbar-dark bg-dark navbar-expand-lg
-        //     justify-content-center" id="navbar_top"
-        // sticky="top"
-        // >
         return (
             <div class="container-fluid">
                 <Navbar id="navbar_top">

@@ -48,8 +48,7 @@ export default class ResumePage extends Component {
                                                 flagship
                                                 Oracle Data Management Workbench product from
                                                 scratch
-                                                using HTML, CSS, and Oracle JavaScript Extension
-                                                Toolkit (OJET).
+                                                using HTML, CSS, and  JavaScript
                                             </li>
                                             <li>
                                                 Dashboard serves as a central repository for all
