@@ -40,3 +40,7 @@ O
 src/components/footer/Footer.js,6\0\604287a36e6b4f3e8721deeb92ac3b1113830d7e
 P
  src/components/footer/Footer.css,c\d\cd77c24cb1698f790b6436c2605e8771104fc3d2
+G
+personal_website_v2.iml,5\7\570e2a775ae600e4e5e820996ff1363e483005b8
+D
+src/mediaQueries.css,7\8\789c343d06e3ab2c495a2837b7f76ca7a8a51780

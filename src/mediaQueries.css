@@ -18,7 +18,38 @@
 @media only screen and (min-width: 767px) {
     #about .profile-pic {
         width: 150px;
-        height: 150px;
-        /*margin-left: 12px;*/
+        border-radius: 5%;
+    }
+    #about .about-me-text {
+        text-align: left;
+        align-items:center;
+        display: flex;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    #about .profile-pic {
+        width: 200px;
+        border-radius: 5%;
+    }
+    #about .about-me-text {
+        text-align: left;
+        align-items:center;
+        display: flex;
+        font-size: 1.15em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #about .profile-pic {
+        width: 250px;
+        border-radius: 5%;
+    }
+    #about .about-me-text {
+        text-align: left;
+        align-items:center;
+        display: flex;
+        font-size: 1.3em;
     }
 }

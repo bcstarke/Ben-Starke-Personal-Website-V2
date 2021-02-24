@@ -13,12 +13,12 @@ export default class AboutPage extends Component {
                             <h1 className="title">About Me</h1>
                             <hr color="#FFFFFF"/>
                             <div class="row">
-                                <div class="three columns">
+                                <div class="col-sm-3">
                                     <img class="profile-pic"
                                          alt="Ben Starke profile pic"
                                          src={profile_pic}/>
                                 </div>
-                                <div class="nine columns">
+                                <div class="col-sm-9 about-me-text">
                                     <p>
                                         My journey into tech began after college while I was
                                         applying to
