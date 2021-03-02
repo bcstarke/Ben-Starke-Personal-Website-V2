@@ -22,6 +22,39 @@ export default class ResumePage extends Component {
                                     </div>
                                     <hr color="#000"/>
                                     <div className="row header">
+                                        <h5>Career Peer Advisor</h5>
+                                    </div>
+                                    <div className="row header-title">
+                                        <div className="container-fluid">
+                                            <div className="degree-field">
+                                                <i>Northeastern University
+                                                </i>
+                                                <br/>
+                                                <i>Boston, MA | 01/2020 - Present
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="row container-fluid">
+                                        <ul>
+                                            <li>Mentor and guide MS in Computer Science students on
+                                                job interviewing and network best practices such as
+                                                mock behavioral/technical interviews and resume
+                                                reviews through one-on-one advising sessions
+                                            </li>
+                                            <li>Developed at led weekly workshops with fellow CPA's
+                                                on interviewing skills with students across multiple
+                                                Northeastern University campuses (Boston, Seattle,
+                                                California, Maine, and Vancouver)
+                                            </li>
+                                            <li>Recommended resources that increased quality and
+                                                efficiency of interview sessions for all Career Peer
+                                                Advisors
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="row header">
                                         <h5>Software Engineering Co-op</h5>
                                         {/*<div class="company-logo-section">*/}
                                         {/*<img class="company-logo .d-none .d-lg-block"*/}
@@ -48,7 +81,7 @@ export default class ResumePage extends Component {
                                                 flagship
                                                 Oracle Data Management Workbench product from
                                                 scratch
-                                                using HTML, CSS, and  JavaScript
+                                                using HTML, CSS, and JavaScript
                                             </li>
                                             <li>
                                                 Dashboard serves as a central repository for all
@@ -163,6 +196,12 @@ export default class ResumePage extends Component {
                                     <div className="row container-fluid">
                                         <ul>
                                             <li>GPA: 3.55</li>
+                                            <li>Relevant coursework: Database Management Systems,
+                                                Web Development, Foundations of Cloud Computing,
+                                                Algorithms, Systems, Object Oriented Design, Human
+                                                Computer Interaction, Foundations of Software
+                                                Engineering.
+                                            </li>
                                         </ul>
                                     </div>
                                     <br/>

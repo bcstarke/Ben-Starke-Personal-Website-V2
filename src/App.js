@@ -7,6 +7,7 @@ import WelcomePage from "./components/welcome/WelcomePage";
 import ContactPage from "./components/contact/ContactPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
+import FavoriteTech from "./components/favTech/FavoriteTech";
 
 class App extends Component {
     constructor(props) {
@@ -25,11 +26,11 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="top-section">
-                        <NavBar/>
-                        <WelcomePage
-                            title="Welcome Page"
-                            id="WelcomePage"
-                        />
+                    <NavBar/>
+                    <WelcomePage
+                        title="Welcome Page"
+                        id="WelcomePage"
+                    />
                 </div>
                 <AboutPage
                     title="About Page"
@@ -39,6 +40,11 @@ class App extends Component {
                     title="Resume Page"
                     dark={false}
                     id="ResumePage"
+                />
+                <FavoriteTech
+                    title="Favorite Tech"
+                    dark={true}
+                    id="FavTechPage"
                 />
                 <ContactPage
                     title="Contact Page"
