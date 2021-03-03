@@ -227,8 +227,9 @@ export default class ResumePage extends Component {
                             </div>
                         </div>
                     </section>
-                    {/*</div>*/
-                    }
+                    <br/>
+                    <br/>
+                    <br/>
                 </div>
             </section>
         )

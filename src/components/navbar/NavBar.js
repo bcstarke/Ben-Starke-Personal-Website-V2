@@ -49,6 +49,18 @@ export default class NavBar extends Component {
                                     Resume
                                 </Link>
                             </li>
+                            <li className="nav-item-top">
+                                <Link
+                                    activeClass="active"
+                                    to="favTech"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >
+                                    Favorite Tech
+                                </Link>
+                            </li>
                         </ul>
                 </Navbar>
                     {/*<div className="nav-content">*/}
