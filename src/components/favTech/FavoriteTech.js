@@ -6,6 +6,8 @@ import mobiscroll from '@mobiscroll/react';
 import '@mobiscroll/react/dist/css/mobiscroll.min.css';
 import java from '../../images/java_lang.png';
 import python from '../../images/python_lang.png';
+import react from '../../images/react_lang.png';
+import git from '../../images/git.png'
 
 export default class FavoriteTech extends Component {
     render() {
@@ -64,40 +66,36 @@ export default class FavoriteTech extends Component {
                                         <br/>
                                         <div className="col-sm-12 col-md-6 col-lg-3">
                                             <div className="tech-card">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit, sed do eiusmod tempor incididunt ut labore et
-                                                dolore magna aliqua. Neque convallis a cras semper.
-                                                Nullam vehicula ipsum a arcu. Arcu cursus euismod
-                                                quis viverra nibh. Enim ut sem viverra aliquet eget
-                                                sit amet tellus cras. Cras fermentum odio eu feugiat
-                                                pretium. Sed cras ornare arcu dui. Adipiscing elit
-                                                duis tristique sollicitudin nibh. Urna nunc id
-                                                cursus metus aliquam eleifend. Lectus magna
-                                                fringilla urna porttitor. Tortor consequat id porta
-                                                nibh venenatis cras sed felis eget. Augue eget arcu
-                                                dictum varius duis at consectetur. Amet cursus sit
-                                                amet dictum sit amet. Feugiat sed lectus vestibulum
-                                                mattis.
+                                                <div className="card-img">
+                                                    <img class=".d-none .d-lg-block"
+                                                         src={react}
+                                                         alt="React logo"
+                                                         height="180px"
+                                                         width="270px"/>
+                                                </div>
+                                                <h4>React</h4>
+                                                I initially was unsure about React, but now prefer
+                                                React as my go-to frontend framework. This website
+                                                was built entirely in React.
                                             </div>
                                         </div>
                                         <br/>
                                         <div
                                             className="col-sm-12 col-md-6 col-lg-3">
                                             <div className="tech-card">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing
-                                                elit, sed do eiusmod tempor incididunt ut labore et
-                                                dolore magna aliqua. Neque convallis a cras semper.
-                                                Nullam vehicula ipsum a arcu. Arcu cursus euismod
-                                                quis viverra nibh. Enim ut sem viverra aliquet eget
-                                                sit amet tellus cras. Cras fermentum odio eu feugiat
-                                                pretium. Sed cras ornare arcu dui. Adipiscing elit
-                                                duis tristique sollicitudin nibh. Urna nunc id
-                                                cursus metus aliquam eleifend. Lectus magna
-                                                fringilla urna porttitor. Tortor consequat id porta
-                                                nibh venenatis cras sed felis eget. Augue eget arcu
-                                                dictum varius duis at consectetur. Amet cursus sit
-                                                amet dictum sit amet. Feugiat sed lectus vestibulum
-                                                mattis.
+                                                <div className="card-img">
+                                                    <img className=".d-none .d-lg-block"
+                                                         src={git}
+                                                         alt="Git logo"
+                                                         height="180px"
+                                                         width="270px"/>
+                                                </div>
+                                                <h4>Git</h4>
+                                                I use git for all of my projects, personal and
+                                                school related. I also used git extensively during
+                                                my co-op at Oracle to save all of my progress.
+                                                Without it I would not have been able to integrate
+                                                my code into the final product.
                                             </div>
                                         </div>
                                     </div>
